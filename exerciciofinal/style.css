@@ -19,7 +19,7 @@ header > h1 {
     text-align: center;
 }
 
-span {
+i {
     background-color: rgb(65, 65, 65);
     color: white;
     width: 100vw;
@@ -28,7 +28,7 @@ span {
     cursor: pointer;
 }
 
-span:hover {
+i:hover {
     background-color: white;
     color: black;
 }
