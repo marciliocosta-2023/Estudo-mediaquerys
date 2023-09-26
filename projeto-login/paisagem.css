@@ -10,21 +10,32 @@
     
     section#login {
         width: 80vw;
-        height: 500px;
+        height: 300px;
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 30%;
+        float: right;
+        width: 50%;
         height: 100%;
     }
     
     section#login > div#formulario {
-        float: right;
-        width: 70%;
-
+        float: left;
+        width: 50%;
     }
-    
+
+    div#formulario > p {
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+
+    input#enviar {
+        width: 80%;
+    }
+
+    a#sen {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -36,17 +47,31 @@
 
     section#login {
         width: 950px;
+        height: 305px;
     }
     
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
 
+    div#formulario > p {
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
+    input#enviar {
+        width: 80%;
+    }
+
+    a#sen {
+        width: 80%;
+    }
+    
 }
